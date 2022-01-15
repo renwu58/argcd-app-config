@@ -13,7 +13,7 @@ spec:
       labels:
         app: mysqldb
       annotations:
-        version/config : 202201152146
+        version/config : "202201152146"
     spec:
       nodeName: minikube
       volumes: 

@@ -22,6 +22,7 @@ data:
     basedir    = /usr
     datadir    = /var/lib/mysql
     tmpdir   = /tmp
+    server-id = 100
     lc-messages-dir  = /usr/share/mysql
     explicit_defaults_for_timestamp
     collation-server = utf8_unicode_ci

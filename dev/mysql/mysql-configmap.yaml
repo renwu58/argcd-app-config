@@ -37,5 +37,5 @@ data:
     # tested as adequate for an environment with up to 24 API/Worker/Collector
     # components (8 of each) and 4000 Agents of incoming traffic. The MySQL
     # container also consumed as much as 1 GB of memory in this test.
-    max_connections=1024
+    max_connections=200
     !includedir /etc/mysql/conf.d/

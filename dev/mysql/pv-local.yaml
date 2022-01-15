@@ -11,7 +11,7 @@ spec:
   persistentVolumeReclaimPolicy: Delete
   storageClassName: local-storage
   local:
-    path: /home
+    path: /volume/mysql
   nodeAffinity:
     required:
       nodeSelectorTerms:
